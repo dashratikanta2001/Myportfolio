@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/swipebox.css">
 	<!--//Custom Theme files-->
 	<!--js-->
+	<script src="./js/main.js"></script>
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<!-- //js -->
 	<!--web-fonts-->
@@ -453,10 +454,10 @@
 					</div>
 					<div class="clearfix"></div>
 					<div class="contact-form">
-						<form action="#" method="post">
+						<form action="https://formspree.io/f/mayaqjev" method="post" id="my-form">
 							<input type="text" name="Name" placeholder="Name" required="">
 							<input class="email" name="Email" type="text" placeholder="Email" required="">
-							<input class="phone" name="phone" type="text" placeholder="Phone" required="">
+							<input class="phone" name="phone" type="text" placeholder="Phone" pattern="[0-9]{10}" required="">
 							<textarea name="Message" placeholder="Message" required=""></textarea>
 							<input type="submit" value="SUBMIT">
 						</form>
